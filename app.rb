@@ -17,6 +17,7 @@ class App < Sinatra::Base
     @session = session
 
     @session= { item:  @item['name']}
+    binding.pry
 
 
 
