@@ -16,6 +16,7 @@ class App < Sinatra::Base
     
     @session = sesson
     @session= { item:  @item['name']}
+    binding.pry
 
 
     erb :checkout
