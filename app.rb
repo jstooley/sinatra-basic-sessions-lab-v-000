@@ -18,9 +18,6 @@ class App < Sinatra::Base
 
     @session[:item] = @item[:name]
   
-
-
-
     erb :checkout
   end
 
